@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77049CFB1CF58DDF007408B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049CFA1CF58DDF007408B9 /* AppDelegate.swift */; };
+		77049CFD1CF58DDF007408B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049CFC1CF58DDF007408B9 /* ViewController.swift */; };
+		77049D001CF58DDF007408B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77049CFE1CF58DDF007408B9 /* Main.storyboard */; };
+		77049D021CF58DDF007408B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77049D011CF58DDF007408B9 /* Assets.xcassets */; };
+		77049D051CF58DDF007408B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77049D031CF58DDF007408B9 /* LaunchScreen.storyboard */; };
+		77049D101CF58E48007408B9 /* SKChartPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049D0D1CF58E48007408B9 /* SKChartPopupView.swift */; };
+		77049D111CF58E48007408B9 /* SKChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049D0E1CF58E48007408B9 /* SKChartView.swift */; };
+		77049D121CF58E48007408B9 /* SKChartViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77049D0F1CF58E48007408B9 /* SKChartViewDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77049CF71CF58DDF007408B9 /* SKChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77049CFA1CF58DDF007408B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77049CFC1CF58DDF007408B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77049CFF1CF58DDF007408B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77049D011CF58DDF007408B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77049D041CF58DDF007408B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77049D061CF58DDF007408B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77049D0D1CF58E48007408B9 /* SKChartPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKChartPopupView.swift; sourceTree = "<group>"; };
+		77049D0E1CF58E48007408B9 /* SKChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKChartView.swift; sourceTree = "<group>"; };
+		77049D0F1CF58E48007408B9 /* SKChartViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKChartViewDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77049CF41CF58DDF007408B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77049CEE1CF58DDF007408B9 = {
+			isa = PBXGroup;
+			children = (
+				77049CF91CF58DDF007408B9 /* SKChart */,
+				77049CF81CF58DDF007408B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77049CF81CF58DDF007408B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77049CF71CF58DDF007408B9 /* SKChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77049CF91CF58DDF007408B9 /* SKChart */ = {
+			isa = PBXGroup;
+			children = (
+				77049D0C1CF58E48007408B9 /* SKChartView */,
+				77049CFA1CF58DDF007408B9 /* AppDelegate.swift */,
+				77049CFC1CF58DDF007408B9 /* ViewController.swift */,
+				77049CFE1CF58DDF007408B9 /* Main.storyboard */,
+				77049D011CF58DDF007408B9 /* Assets.xcassets */,
+				77049D031CF58DDF007408B9 /* LaunchScreen.storyboard */,
+				77049D061CF58DDF007408B9 /* Info.plist */,
+			);
+			path = SKChart;
+			sourceTree = "<group>";
+		};
+		77049D0C1CF58E48007408B9 /* SKChartView */ = {
+			isa = PBXGroup;
+			children = (
+				77049D0E1CF58E48007408B9 /* SKChartView.swift */,
+				77049D0F1CF58E48007408B9 /* SKChartViewDataSource.swift */,
+				77049D0D1CF58E48007408B9 /* SKChartPopupView.swift */,
+			);
+			path = SKChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77049CF61CF58DDF007408B9 /* SKChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77049D091CF58DDF007408B9 /* Build configuration list for PBXNativeTarget "SKChart" */;
+			buildPhases = (
+				77049CF31CF58DDF007408B9 /* Sources */,
+				77049CF41CF58DDF007408B9 /* Frameworks */,
+				77049CF51CF58DDF007408B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKChart;
+			productName = SKChart;
+			productReference = 77049CF71CF58DDF007408B9 /* SKChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77049CEF1CF58DDF007408B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Viktor Olesenko";
+				TargetAttributes = {
+					77049CF61CF58DDF007408B9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 77049CF21CF58DDF007408B9 /* Build configuration list for PBXProject "SKChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77049CEE1CF58DDF007408B9;
+			productRefGroup = 77049CF81CF58DDF007408B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77049CF61CF58DDF007408B9 /* SKChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77049CF51CF58DDF007408B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77049D051CF58DDF007408B9 /* LaunchScreen.storyboard in Resources */,
+				77049D021CF58DDF007408B9 /* Assets.xcassets in Resources */,
+				77049D001CF58DDF007408B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77049CF31CF58DDF007408B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77049D121CF58E48007408B9 /* SKChartViewDataSource.swift in Sources */,
+				77049D101CF58E48007408B9 /* SKChartPopupView.swift in Sources */,
+				77049CFD1CF58DDF007408B9 /* ViewController.swift in Sources */,
+				77049CFB1CF58DDF007408B9 /* AppDelegate.swift in Sources */,
+				77049D111CF58E48007408B9 /* SKChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77049CFE1CF58DDF007408B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77049CFF1CF58DDF007408B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77049D031CF58DDF007408B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77049D041CF58DDF007408B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77049D071CF58DDF007408B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77049D081CF58DDF007408B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77049D0A1CF58DDF007408B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Steelkiwi.SKChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77049D0B1CF58DDF007408B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Steelkiwi.SKChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77049CF21CF58DDF007408B9 /* Build configuration list for PBXProject "SKChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77049D071CF58DDF007408B9 /* Debug */,
+				77049D081CF58DDF007408B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77049D091CF58DDF007408B9 /* Build configuration list for PBXNativeTarget "SKChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77049D0A1CF58DDF007408B9 /* Debug */,
+				77049D0B1CF58DDF007408B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77049CEF1CF58DDF007408B9 /* Project object */;
+}
