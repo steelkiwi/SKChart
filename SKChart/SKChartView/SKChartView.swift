@@ -74,7 +74,7 @@ private let minGridOffset: CGFloat = 3
         // No negative values for lines count
         let numberOfLines = max(dataSource!.chartViewNumberOfLines(self), 0)
         
-        for lineIndex in 0...numberOfLines {
+        for lineIndex in 0 ..< numberOfLines {
             valuesArray.append(dataSource!.chartView(self, valuesForLine: lineIndex))
         }
         
