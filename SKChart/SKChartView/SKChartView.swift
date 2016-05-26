@@ -389,7 +389,7 @@ private let minGridOffset: CGFloat = 3
                 let value = fromValue + (point.x - fromPoint) * valuePerPixel
                 values.append(value)
             } else {
-                values.append(0)
+                values.append(lineValues.last ?? 0)
             }
         }
         

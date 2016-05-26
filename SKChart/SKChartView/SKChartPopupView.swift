@@ -35,7 +35,7 @@ public class SKChartPopupView: UIView {
             let label = UILabel()
             label.font = UIFont.systemFontOfSize(12)
             label.textColor = colors![valueIndex]
-            label.text = NSString(format: (value == floor(value) ? "%.0f" : "%.2f"), value) as String
+            label.text = NSString(format: "%.2f", value) as String
             label.sizeToFit()
             
             if label.frame.width > newWidth { newWidth = label.frame.width }
