@@ -8,6 +8,8 @@
 
 import UIKit
 
+private let minGridOffset: CGFloat = 3
+
 @IBDesignable public class SKChartView: UIView {
     
     // MARK: - Public propertys
@@ -30,7 +32,7 @@ import UIKit
     /// Distance between vertical lines of grid. Min value is 3
     @IBInspectable public var gridXOffset: CGFloat = 60.0 {
         didSet {
-            if gridXOffset < 3 {gridXOffset = 3}
+            if gridXOffset < minGridOffset { gridXOffset = minGridOffset }
         }
     }
     
@@ -40,7 +42,7 @@ import UIKit
     /// Distance between horizontal lines of grid. Min value is 3
     @IBInspectable public var gridYOffset: CGFloat = 60.0 {
         didSet {
-            if gridYOffset < 3 {gridYOffset = 3}
+            if gridYOffset < minGridOffset { gridYOffset = minGridOffset }
         }
     }
     
